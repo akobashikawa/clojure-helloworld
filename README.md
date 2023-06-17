@@ -4,4 +4,6 @@
 
 ## Run
 
-- `clj -M -m helloworld.core`
+```sh
+clj -M -m helloworld.core
+```
