@@ -1,0 +1,42 @@
+# Ignorar archivos y directorios generados por herramientas de construcción de Clojure
+
+/target/
+/classes/
+/.lein-*
+/*.jar
+/.shadow-cljs
+/.cpcache
+
+# Ignorar archivos de dependencias
+
+/lib/
+
+# Ignorar archivos y directorios generados por IDE
+
+/.idea/
+/.vscode/
+
+# Ignorar archivos de respaldo y archivos temporales
+
+*~
+*#
+.*.swp
+
+# Ignorar archivos de registro y registros de depuración
+
+/log/
+*.log
+
+# Ignorar archivos de configuración personalizados y locales
+
+/config-local.edn
+/.env
+/.nrepl-port
+
+# Ignorar archivos generados durante la ejecución
+
+/out/
+
+.clj-kondo
+.cpcache
+.lsp
